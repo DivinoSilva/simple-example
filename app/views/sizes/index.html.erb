@@ -1,0 +1,29 @@
+
+<div class="content content-boxed">
+  <div class="block">
+    <div class="block-header bg-gray-lighter">
+      <div class="col-sm-12">
+        <h3 class="block-title ">Tamanhos</h3>
+        <button class="btn btn-sm btn-primary pull-right" data-toggle="modal" data-target="#size-form" type="button"><i class="fa fa-plus"></i></button>
+      </div>
+    </div>
+    <div class="block-content">
+      <table class="table table-borderless table-striped table-vcenter">
+        <thead>
+          <tr>
+            <th class="text-center">Id</th>
+            <th class="text-center">Tamanho</th>
+          </tr>
+        </thead>
+        <tbody>
+          <% @sizes.each do |size | %>
+            <tr>
+              <td class="text-center"> <%= size.id %> </td>
+              <td class="text-center"> <%= size.name.capitalize %> </td>
+            </tr>
+          <% end if @sizes %>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>

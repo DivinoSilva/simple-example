@@ -37,8 +37,15 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
+    autoprefixer-rails (9.7.1)
+      execjs
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
+    bootstrap (4.0.0.beta)
+      autoprefixer-rails (>= 6.0.3)
+      popper_js (~> 1.11.1)
+      sass (>= 3.4.19)
+    bootstrap-toggle-rails (2.2.1.0)
     builder (3.2.2)
     byebug (8.2.1)
     coderay (1.1.2)
@@ -82,6 +89,7 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
+    popper_js (1.11.1)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -170,6 +178,8 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bootstrap
+  bootstrap-toggle-rails (~> 2.2, >= 2.2.1.0)
   byebug
   coffee-rails (~> 4.1.0)
   database_cleaner

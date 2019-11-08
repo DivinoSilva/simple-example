@@ -2,7 +2,7 @@
 ENTITIES = [Color, Size]
 FEATURES = {
   Size => ['1', '2', '3', '4', '5'],
-  Color => ['green', 'blue', 'blacxk', 'white']
+  Color => ['verde', 'azul', 'preto', 'branco']
 }
 
 ENTITIES.each do |e|
