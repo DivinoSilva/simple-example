@@ -6,10 +6,11 @@ class SizesController < ApplicationController
   end
 
   def create
-    Size.create(name: params['size'])
+    Size.create(name: params['name'])
 
-    head :ok and redirect_to :back
+    redirect_to :back
     rescue => e
-      render json: { message: e.message }, status: :unprocessable_entity
+      flash[:alert] = e.message
+      redirect_to :back
   end
 end

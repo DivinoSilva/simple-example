@@ -6,9 +6,9 @@ class ColorsController < ApplicationController
   end
 
   def create
-    Color.create(name: params['color'])
+    Color.create(name: params['name'])
 
-    head :ok and redirect_to :back
+    redirect_to :back
     rescue => e
       render json: { message: e.message }, status: :unprocessable_entity
   end

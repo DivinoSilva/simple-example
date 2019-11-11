@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20191108131435) do
 
-  create_table "avaiable_products", force: :cascade do |t|
+  create_table "available_products", force: :cascade do |t|
     t.integer  "product_id"
     t.integer  "color_id"
     t.integer  "size_id"
