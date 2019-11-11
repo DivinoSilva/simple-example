@@ -1,7 +1,6 @@
 class ProductsController < ApplicationController
   def index
-    @products = AvailableProduct.all
-
+    @products = AvailableProduct.all.order([:product_id,:color_id])
     @products_presenter = @products.map{ |p| ProductPresenter.new(p) }
   rescue => e
     flash[:alert] = e.message
@@ -30,6 +29,7 @@ class ProductsController < ApplicationController
     {
       name: params[:name],
       description: params[:description],
+      item_id: params[:item_id],
       size_id: params[:size_id],
       color_id: params[:color_id]
     }

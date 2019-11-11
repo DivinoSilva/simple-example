@@ -1,6 +1,5 @@
 class ProductBuilder
   def initialize(attributes)
-
     @attributes = attributes
   end
 
@@ -23,6 +22,7 @@ class ProductBuilder
   end
 
   def product
+    return Product.find(@attributes[:item_id]) if @attributes[:item_id].present?
     Product.new(name: @attributes[:name], description: @attributes[:description])
   end
 end
