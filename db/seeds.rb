@@ -1,7 +1,7 @@
 # 
 ENTITIES = [Color, Size]
 FEATURES = {
-  Size => ['1', '2', '3', '4', '5'],
+  Size => ['P', 'M', 'G', 'GG', 'XXG'],
   Color => ['verde', 'azul', 'preto', 'branco']
 }
 

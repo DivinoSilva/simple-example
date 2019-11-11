@@ -4,13 +4,15 @@ class ProductsController < ApplicationController
 
     @products_presenter = @products.map{ |p| ProductPresenter.new(p) }
   rescue => e
-    render json: { message: e.message }, status: :not_found
+    flash[:alert] = e.message
+    redirect_to :back
   end
 
   def show
     @product = Product.find(params['id'])
   rescue => e
-    render json: { message: e.message }, status: :not_found
+    flash[:alert] = e.message
+    redirect_to :back
   end
 
   def create
@@ -18,7 +20,8 @@ class ProductsController < ApplicationController
 
     redirect_to :back if product.save!
     rescue => e
-      render json: { message: e.message }, status: :unprocessable_entity
+      flash[:alert] = e.message
+      redirect_to :back
   end
 
   private

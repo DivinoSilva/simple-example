@@ -10,6 +10,7 @@ class ColorsController < ApplicationController
 
     redirect_to :back
     rescue => e
-      render json: { message: e.message }, status: :unprocessable_entity
+      flash[:alert] = e.message
+      redirect_to :back
   end
 end
