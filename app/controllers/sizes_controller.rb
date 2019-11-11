@@ -2,7 +2,8 @@ class SizesController < ApplicationController
   def index
     @sizes = Size.all.order(:id)
   rescue => e
-    render json: { message: e.message }, status: :not_found
+    flash[:alert] = e.message
+    redirect_to :back
   end
 
   def create

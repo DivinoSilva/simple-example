@@ -2,7 +2,8 @@ class ColorsController < ApplicationController
   def index
     @colors = Color.all
   rescue => e
-    render json: { message: e.message }, status: :not_found
+    flash[:alert] = e.message
+    redirect_to :back
   end
 
   def create
