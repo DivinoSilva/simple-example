@@ -2,8 +2,12 @@
   <div class="block">
     <div class="block-header bg-gray-lighter">
       <div class="col-sm-12">
-        <h3 class="block-title ">Produtos</h3>
-        <button class="btn btn-sm btn-primary pull-right" data-toggle="modal" data-target="#product-form" type="button"><i class="fa fa-plus"></i></button>
+        <div class="col-sm-6">
+          <h3 class="block-title ">Produtos</h3>
+        </div>
+        <div class="col-sm-6">
+          <button class="btn btn-sm btn-primary pull-right" data-toggle="modal" data-target="#product-form" type="button"><i class="fa fa-plus"></i></button>
+        </div>
       </div>
     </div>
 
@@ -31,3 +35,4 @@
     </div>
   </div>
 </div>
+<%= render 'modal_block' %>

@@ -1340,3 +1340,489 @@ Started GET "/assets/application.self-5d3de6802b260baa6ec1bce0cbbf69c4970a77abc1
 
 
 Started GET "/assets/application.self-f98a0dd27ad1c55b2b9cfe97296d4887e5d4a4535b3bbbf9130c1050771738b2.js?body=1" for ::1 at 2019-11-08 14:07:18 -0200
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:24:09 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (0.6ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.9ms)
+  Rendered colors/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 583ms (Views: 563.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.self-6ff5f4122f64e4267d7a0c3cf90e0e0b8ea9f5a331433656f0266865f580c584.js?body=1" for ::1 at 2019-11-08 15:24:10 -0200
+
+
+Started GET "/assets/application.self-5d3de6802b260baa6ec1bce0cbbf69c4970a77abc12382da73e95cbffe23f701.css?body=1" for ::1 at 2019-11-08 15:24:10 -0200
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:29:17 -0200
+Processing by ColorsController#index as HTML
+  [1m[36mColor Load (0.5ms)[0m  [1mSELECT "colors".* FROM "colors"[0m
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 125ms (Views: 123.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:29:19 -0200
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (0.2ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 88ms (Views: 86.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:30:02 -0200
+Processing by ColorsController#index as HTML
+  [1m[36mColor Load (0.4ms)[0m  [1mSELECT "colors".* FROM "colors"[0m
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:30:06 -0200
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (0.2ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 86ms (Views: 84.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:30:35 -0200
+Processing by ColorsController#index as HTML
+  [1m[36mColor Load (0.3ms)[0m  [1mSELECT "colors".* FROM "colors"[0m
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 100ms (Views: 97.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:33:00 -0200
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (1.4ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.5ms)
+  Rendered colors/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 115ms (Views: 104.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:33:04 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.9ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 120ms (Views: 110.6ms | ActiveRecord: 5.3ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:33:10 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.2ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 95ms (Views: 93.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:33:11 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.5ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 93ms (Views: 90.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:33:59 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.3ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 111ms (Views: 109.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:34:40 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.5ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 1617ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-toggle.
+Load paths:
+  /Users/divs/projects/ruby/teste-rails/app/assets/config
+  /Users/divs/projects/ruby/teste-rails/app/assets/images
+  /Users/divs/projects/ruby/teste-rails/app/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/app/assets/stylesheets
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/popper_js-1.11.1/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/stylesheets):
+    4:     <title>Synergia</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   10:   </head>
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1522118854810961417_70099419719300'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (12.7ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (121.0ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (89.1ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (204.3ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:35:00 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.6ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (2.5ms)
+Completed 500 Internal Server Error in 1877ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-toggle.
+Load paths:
+  /Users/divs/projects/ruby/teste-rails/app/assets/config
+  /Users/divs/projects/ruby/teste-rails/app/assets/images
+  /Users/divs/projects/ruby/teste-rails/app/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/app/assets/stylesheets
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/coffee-rails-4.1.0/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/popper_js-1.11.1/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/bootstrap-4.0.0.beta/assets/stylesheets):
+    4:     <title>Synergia</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   10:   </head>
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1522118854810961417_70099419719300'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (17.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.9ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (128.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (82.2ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (186.3ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:35:24 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.7ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 399ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap-togle' with type 'application/javascript'):
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  app/assets/javascripts/application.js:18
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__1330206351537335012_70304060124380'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (9.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (122.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (89.1ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (234.2ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:38:38 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (1.9ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 7187ms (Views: 7181.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.self-655011f5360963eeccd5dfb3dd6afc2828684b4fcc08560fd7b5c2a16939ac44.css?body=1" for ::1 at 2019-11-08 15:38:45 -0200
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:39:52 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.6ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (7.0ms)
+Completed 500 Internal Server Error in 3940ms
+
+ActionView::Template::Error (couldn't find file 'bootstrap-togle' with type 'application/javascript'):
+     6: 
+     7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+    12:   <body>
+  app/assets/javascripts/application.js:18
+  app/views/layouts/application.html.erb:9:in `_app_views_layouts_application_html_erb__157538661148273211_70325266654800'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.1ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (114.9ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (93.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (1.0ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (226.1ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:40:11 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.3ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 477ms (Views: 474.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.self-7b201d61b28138ba2ee9616d6a2f47572ed36484f7086cc1a9dfec16738b8025.css?body=1" for ::1 at 2019-11-08 15:40:11 -0200
+
+
+Started GET "/assets/bootstrap/bootstrap.self-b38817c3e3a3049abb1fc08dd6ae448b23330f8453226efdb074710209474f75.js?body=1" for ::1 at 2019-11-08 15:40:11 -0200
+
+
+Started GET "/assets/application.self-36e4225dd5f520f6ea7eedfeed36c3ab31603d414b82fa4802a7b4647b442d97.js?body=1" for ::1 at 2019-11-08 15:40:11 -0200
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:41:57 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (1.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.8ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (18.3ms)
+Completed 500 Internal Server Error in 1531ms
+
+ActionView::Template::Error (File to import not found or unreadable: bootstrap-toggle.
+Load paths:
+  /Users/divs/projects/ruby/teste-rails/app/assets/config
+  /Users/divs/projects/ruby/teste-rails/app/assets/images
+  /Users/divs/projects/ruby/teste-rails/app/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/app/assets/stylesheets
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-datetimepicker-3-4.17.47/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-datetimepicker-3-4.17.47/app/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-moment-2.24.0/app/assets/documents
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-moment-2.24.0/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/documents
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/fonts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-jquery-3.4.1/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    4:     <title>Synergia</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   10:   </head>
+  app/assets/stylesheets/application.scss:5
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3465170979281340013_70257853010420'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (13.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (7.2ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (105.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (98.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (206.4ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:42:18 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.2ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 3765ms (Views: 3763.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-14783ca21e21b9cb56af25a026b4db5b4d6a6907a6255c0dbc801f213c8e7aae.css?body=1" for ::1 at 2019-11-08 15:42:22 -0200
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:42:28 -0200
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (0.7ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.4ms)
+  Rendered colors/index.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 108ms (Views: 102.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:43:03 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.2ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/index.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 717ms
+
+ActionView::Template::Error (File to import not found or unreadable: custom.
+Load paths:
+  /Users/divs/projects/ruby/teste-rails/app/assets/config
+  /Users/divs/projects/ruby/teste-rails/app/assets/images
+  /Users/divs/projects/ruby/teste-rails/app/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/app/assets/stylesheets
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/javascripts
+  /Users/divs/projects/ruby/teste-rails/vendor/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-datetimepicker-3-4.17.47/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-datetimepicker-3-4.17.47/app/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-moment-2.24.0/app/assets/documents
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-moment-2.24.0/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/documents
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/fonts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-bootstrap-3.3.7/app/assets/stylesheets
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/rails-assets-jquery-3.4.1/app/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/turbolinks-2.5.3/lib/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/jquery-rails-4.0.5/vendor/assets/javascripts
+  /Users/divs/.rvm/gems/ruby-2.2.0/gems/coffee-rails-4.1.0/lib/assets/javascripts):
+    4:     <title>Synergia</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+   10:   </head>
+  app/assets/stylesheets/application.scss:3
+  app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___3465170979281340013_70257853010420'
+
+
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (23.7ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (119.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (80.3ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (184.8ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:43:18 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.2ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 3396ms (Views: 3394.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-f32f3e4662a0ea9b0de73f0bdafebf3ac956db4c5f06d00db2c98e7552e7ced7.css?body=1" for ::1 at 2019-11-08 15:43:21 -0200
+
+
+Started GET "/colors" for ::1 at 2019-11-08 15:43:31 -0200
+Processing by ColorsController#index as HTML
+  [1m[36mColor Load (0.6ms)[0m  [1mSELECT "colors".* FROM "colors"[0m
+  Rendered colors/_modal_block.html.erb (0.1ms)
+  Rendered colors/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 128ms (Views: 126.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:44:49 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.4ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/_modal_block.html.erb (0.4ms)
+  Rendered sizes/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 141ms (Views: 140.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-08 15:45:33 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (0.4ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/_modal_block.html.erb (0.4ms)
+  Rendered sizes/index.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 119ms (Views: 113.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/products" for ::1 at 2019-11-08 15:47:07 -0200
+Processing by ProductsController#index as HTML
+  Rendered products/_modal_block.html.erb (0.2ms)
+  Rendered products/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 107ms (Views: 101.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2019-11-10 19:46:49 -0200
+Processing by ProductsController#index as HTML
+  Rendered products/_modal_block.html.erb (0.2ms)
+  Rendered products/index.html.erb within layouts/application (17.2ms)
+Completed 200 OK in 291ms (Views: 273.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery/jquery.self-e200ee796ef24add7054280d843a80de75392557bb4248241e870fac0914c0c1.js?body=1" for ::1 at 2019-11-10 19:46:49 -0200
+
+
+Started GET "/assets/application.self-f32f3e4662a0ea9b0de73f0bdafebf3ac956db4c5f06d00db2c98e7552e7ced7.css?body=1" for ::1 at 2019-11-10 19:46:49 -0200
+
+
+Started GET "/" for ::1 at 2019-11-10 19:46:52 -0200
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /Users/divs/.rvm/gems/ruby-2.2.0/gems/railties-4.2.0/lib/rails/templates/rails/welcome/index.html.erb (2.2ms)
+Completed 200 OK in 16ms (Views: 12.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/colors" for ::1 at 2019-11-10 19:46:59 -0200
+Processing by ColorsController#index as HTML
+  [1m[35mColor Load (8.5ms)[0m  SELECT "colors".* FROM "colors"
+  Rendered colors/_modal_block.html.erb (0.7ms)
+  Rendered colors/index.html.erb within layouts/application (26.7ms)
+Completed 200 OK in 212ms (Views: 200.9ms | ActiveRecord: 8.5ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-10 19:47:14 -0200
+Processing by SizesController#index as HTML
+  [1m[36mSize Load (2.9ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC[0m
+  Rendered sizes/_modal_block.html.erb (0.1ms)
+  Rendered sizes/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 222ms (Views: 215.2ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/products" for ::1 at 2019-11-10 19:57:21 -0200
+Processing by ProductsController#index as HTML
+  Rendered products/_modal_block.html.erb (0.1ms)
+  Rendered products/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 146ms (Views: 144.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/products" for ::1 at 2019-11-10 22:46:27 -0200
+Processing by ProductsController#index as HTML
+  Rendered products/_modal_block.html.erb (0.5ms)
+  Rendered products/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 197ms (Views: 188.5ms | ActiveRecord: 0.0ms)

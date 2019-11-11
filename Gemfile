@@ -10,7 +10,21 @@ gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 gem 'pry'
-gem 'bootstrap'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-bootstrap', '3.3.7'
+  # gem 'rails-assets-appear'
+  # gem 'rails-assets-jquery-countTo'
+  # gem 'rails-assets-jquery-placeholder'
+  # gem 'rails-assets-jquery-scrollLock'
+  # gem 'rails-assets-jquery-slimscroll'
+  # gem 'rails-assets-eventEmitter'
+  # gem 'rails-assets-bootstrap-datepicker'
+  # gem 'rails-assets-imageviewer'
+  # gem 'rails-assets-jquery-maskedinput'
+  # gem 'rails-assets-moment'
+  gem 'rails-assets-bootstrap-datetimepicker-3'
+end
 
 group :development, :test do
   gem 'byebug'

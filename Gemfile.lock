@@ -1,5 +1,6 @@
 GEM
   remote: https://rubygems.org/
+  remote: https://rails-assets.org/
   specs:
     actionmailer (4.2.0)
       actionpack (= 4.2.0)
@@ -37,15 +38,8 @@ GEM
       thread_safe (~> 0.3, >= 0.3.4)
       tzinfo (~> 1.1)
     arel (6.0.3)
-    autoprefixer-rails (9.7.1)
-      execjs
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bootstrap (4.0.0.beta)
-      autoprefixer-rails (>= 6.0.3)
-      popper_js (~> 1.11.1)
-      sass (>= 3.4.19)
-    bootstrap-toggle-rails (2.2.1.0)
     builder (3.2.2)
     byebug (8.2.1)
     coderay (1.1.2)
@@ -89,7 +83,6 @@ GEM
     multi_json (1.11.2)
     nokogiri (1.6.7)
       mini_portile2 (~> 2.0.0.rc2)
-    popper_js (1.11.1)
     pry (0.12.2)
       coderay (~> 1.1.0)
       method_source (~> 0.9.0)
@@ -107,6 +100,13 @@ GEM
       bundler (>= 1.3.0, < 2.0)
       railties (= 4.2.0)
       sprockets-rails
+    rails-assets-bootstrap (3.3.7)
+      rails-assets-jquery (>= 1.9.1, < 4)
+    rails-assets-bootstrap-datetimepicker-3 (4.17.47)
+      rails-assets-jquery (>= 1.8.3)
+      rails-assets-moment (>= 2.10.5)
+    rails-assets-jquery (3.4.1)
+    rails-assets-moment (2.24.0)
     rails-deprecated_sanitizer (1.0.3)
       activesupport (>= 4.2.0.alpha)
     rails-dom-testing (1.0.7)
@@ -178,8 +178,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap
-  bootstrap-toggle-rails (~> 2.2, >= 2.2.1.0)
   byebug
   coffee-rails (~> 4.1.0)
   database_cleaner
@@ -188,6 +186,8 @@ DEPENDENCIES
   jquery-rails
   pry
   rails (= 4.2.0)
+  rails-assets-bootstrap (= 3.3.7)!
+  rails-assets-bootstrap-datetimepicker-3!
   rspec-rails
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
