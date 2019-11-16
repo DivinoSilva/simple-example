@@ -1,14 +1,31 @@
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Teste Synergia Rails</title>
-  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
-  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
-  <%= csrf_meta_tags %>
-</head>
-<body>
+  <head>
+    <title>Synergia</title>
+    <%= csrf_meta_tags %>
 
-<%= yield %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <div class="navbar-class">
+      <div class="container">
+        <ul class="nav navbar-nav">
+          <li><%=link_to "Produtos", products_path%></li>
+          <li><%=link_to "Itens", items_path %></li>
+          <li><%=link_to "Tamanhos", sizes_path %></li>
+          <li><%=link_to "Cores", colors_path %></li>
+        </ul>
+      </div>
+    </div>
+  </head>
 
-</body>
+  <body>
+    <% if notice %>
+    <p class="alert alert-success"><%= notice %></p>
+    <% end %>
+    <% if alert %>
+    <p class="alert alert-danger"><%= alert %></p>
+    <% end %>
+    <%= yield %>
+  </body>
 </html>
