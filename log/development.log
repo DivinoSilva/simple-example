@@ -11811,3 +11811,118 @@ Processing by ProductsController#index as HTML
   Rendered products/_modal_block.html.erb (9.2ms)
   Rendered products/index.html.erb within layouts/application (17.1ms)
 Completed 200 OK in 210ms (Views: 205.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/" for ::1 at 2019-11-15 22:09:22 -0200
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by ProductsController#index as HTML
+  [1m[35mAvailableProduct Load (1.0ms)[0m  SELECT "available_products".* FROM "available_products"  ORDER BY "available_products"."product_id" ASC, "available_products"."color_id" ASC
+  [1m[36mProduct Load (0.7ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mColor Load (0.7ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mSize Load (0.6ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSize Load (0.2ms)[0m  SELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mColor Load (0.2ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSize Load (0.2ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mProduct Load (0.3ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."name" ASC
+  [1m[36mSize Load (0.3ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."name" ASC[0m
+  [1m[35mColor Load (0.3ms)[0m  SELECT "colors".* FROM "colors"  ORDER BY "colors"."name" ASC
+  Rendered products/_product_behavior.html.erb (0.6ms)
+  Rendered products/_modal_block.html.erb (13.2ms)
+  Rendered products/index.html.erb within layouts/application (107.7ms)
+Completed 200 OK in 12919ms (Views: 12866.3ms | ActiveRecord: 7.3ms)
+
+
+Started GET "/assets/application.self-f32f3e4662a0ea9b0de73f0bdafebf3ac956db4c5f06d00db2c98e7552e7ced7.css?body=1" for ::1 at 2019-11-15 22:09:35 -0200
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for ::1 at 2019-11-15 22:09:35 -0200
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for ::1 at 2019-11-15 22:09:35 -0200
+
+
+Started GET "/colors" for ::1 at 2019-11-15 22:09:43 -0200
+Processing by ColorsController#index as HTML
+  [1m[36mColor Load (0.3ms)[0m  [1mSELECT "colors".* FROM "colors"[0m
+  Rendered colors/_modal_block.html.erb (1.4ms)
+  Rendered colors/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 112ms (Views: 110.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/sizes" for ::1 at 2019-11-15 22:09:44 -0200
+Processing by SizesController#index as HTML
+  [1m[35mSize Load (0.2ms)[0m  SELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."id" ASC
+  Rendered sizes/_modal_block.html.erb (1.6ms)
+  Rendered sizes/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 125ms (Views: 122.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/items" for ::1 at 2019-11-15 22:09:44 -0200
+Processing by ItemsController#index as HTML
+  [1m[36mProduct Load (0.3ms)[0m  [1mSELECT "products".* FROM "products"[0m
+  Rendered items/_modal_block.html.erb (2.4ms)
+  Rendered items/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 125ms (Views: 123.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/products" for ::1 at 2019-11-15 22:09:45 -0200
+Processing by ProductsController#index as HTML
+  [1m[35mAvailableProduct Load (0.2ms)[0m  SELECT "available_products".* FROM "available_products"  ORDER BY "available_products"."product_id" ASC, "available_products"."color_id" ASC
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mColor Load (0.3ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mSize Load (0.1ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSize Load (0.1ms)[0m  SELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1  [["id", 5]]
+  [1m[36mCACHE (0.3ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mColor Load (0.2ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mSize Load (0.1ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."name" ASC
+  [1m[36mSize Load (0.2ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."name" ASC[0m
+  [1m[35mColor Load (0.2ms)[0m  SELECT "colors".* FROM "colors"  ORDER BY "colors"."name" ASC
+  Rendered products/_product_behavior.html.erb (0.4ms)
+  Rendered products/_modal_block.html.erb (10.0ms)
+  Rendered products/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 124ms (Views: 120.1ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/products" for ::1 at 2019-11-15 22:09:54 -0200
+Processing by ProductsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"hJi/BqIQGQnJDDtkviJNAO/ivZce1Yii/o5/4BoHNZPW4HsudQhyWiSoCnaGFqLJ54pstDKU4NoB+iylRc9FkQ==", "name"=>"", "description"=>"", "item_id"=>"1", "size_id"=>"4", "color_id"=>"4"}
+  [1m[36mColor Load (0.2ms)[0m  [1mSELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSize Load (0.2ms)[0m  SELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mProduct Load (0.2ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", "4"]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "available_products" ("product_id", "color_id", "size_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["product_id", 1], ["color_id", 4], ["size_id", 4], ["created_at", "2019-11-16 00:09:54.536528"], ["updated_at", "2019-11-16 00:09:54.536528"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/products
+Completed 302 Found in 31ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/products" for ::1 at 2019-11-15 22:09:54 -0200
+Processing by ProductsController#index as HTML
+  [1m[36mAvailableProduct Load (0.4ms)[0m  [1mSELECT "available_products".* FROM "available_products"  ORDER BY "available_products"."product_id" ASC, "available_products"."color_id" ASC[0m
+  [1m[35mProduct Load (0.1ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mColor Load (0.1ms)[0m  [1mSELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1[0m  [["id", 2]]
+  [1m[35mSize Load (0.1ms)[0m  SELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mSize Load (0.3ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 5]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36mColor Load (0.5ms)[0m  [1mSELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mSize Load (0.1ms)[0m  SELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mCACHE (0.0ms)[0m  SELECT  "colors".* FROM "colors" WHERE "colors"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT  "sizes".* FROM "sizes" WHERE "sizes"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35mProduct Load (0.2ms)[0m  SELECT "products".* FROM "products"  ORDER BY "products"."name" ASC
+  [1m[36mSize Load (0.2ms)[0m  [1mSELECT "sizes".* FROM "sizes"  ORDER BY "sizes"."name" ASC[0m
+  [1m[35mColor Load (0.1ms)[0m  SELECT "colors".* FROM "colors"  ORDER BY "colors"."name" ASC
+  Rendered products/_product_behavior.html.erb (0.1ms)
+  Rendered products/_modal_block.html.erb (6.5ms)
+  Rendered products/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 188ms (Views: 178.0ms | ActiveRecord: 2.2ms)
