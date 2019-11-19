@@ -5,13 +5,12 @@ default: &default
 
 development:
   <<: *default
-  database: div__admin_development
+  database: d_admin_development
 
 test:
   <<: *default
-  database: div__admin_test
+  database: d_admin_test
 
 production:
   <<: *default
-  database: div__admin
- 
+  database: d_admin
